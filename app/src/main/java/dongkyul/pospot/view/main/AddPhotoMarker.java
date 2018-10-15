@@ -76,7 +76,7 @@ public class AddPhotoMarker extends BaseActivity {
         super.onClick(v);
         switch (v.getId()){
             case R.id.btnHome:
-                Intent intent = new Intent(AddPhotoMarker.this,MainMapActivity.class);
+                Intent intent = new Intent(AddPhotoMarker.this, MainMapActivity.class);
                 startActivity(intent);
                 Toast.makeText(
                         getApplicationContext(),
